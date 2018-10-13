@@ -1,0 +1,83 @@
+[
+  {
+    "header": "Access-Control-Allow-Origin",
+    "values": ["*"]
+  },
+  {
+    "header": "Access-Control-Allow-Credentials",
+    "values": ["true"]
+  },
+  {
+    "header": "Access-Control-Expose-Headers",
+    "values":
+    [
+      "Content-Type",
+      "Content-Type, Content-Length",
+      "Content-Type, Content-Length, Content-Disposition"
+    ]
+  },
+  {
+    "header": "Access-Control-Max-Age",
+    "values": ["3600", "28800", "86400", "259200"]
+  },
+  {
+    "header": "Access-Control-Allow-Methods",
+    "values":
+    [
+      "OPTIONS, GET, POST",
+      "OPTIONS, GET, POST, PATCH, DELETE",
+      "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+    ]
+  },
+  {
+    "header": "Access-Control-Allow-Headers",
+    "values":
+    [
+      "Authorization",
+      "Authorization, Content-Type",
+      "Authorization, Content-Type, X-Requested-With"
+    ]
+  },
+  {
+    "header": "Cache-Control",
+    "values": [
+      "max-age=3600",
+      "no-cache",
+      "must-revalidate",
+      "public",
+      "private",
+      "immutable",
+      "stale-if-error=3600"
+    ]
+  },
+  {
+    "header": "Content-Disposition",
+    "values": ["attachment; filename=\"example.txt\""]
+  },
+  {
+    "header": "Content-Type",
+    "values":
+    [
+      "text/plain",
+      "text/html",
+      "application/json",
+      "application/octet-stream"
+    ]
+  },
+  {
+    "header": "Set-Cookie",
+    "values": ["SESSIONID=Ap4PGTEq"]
+  },
+  {
+    "header": "Timing-Allow-Origin",
+    "values": ["*"]
+  },
+  {
+    "header": "X-Content-Type-Options",
+    "values": ["nosniff"]
+  },
+  {
+    "header": "X-XSS-Protection",
+    "values": ["1; mode=block"]
+  }
+]

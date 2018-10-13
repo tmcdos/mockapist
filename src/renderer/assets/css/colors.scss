@@ -1,0 +1,106 @@
+$primary: #8A40C0;
+$secondary: #00B999;
+$success: #50A015;
+$danger: #FB4143;
+$warning: #FAB633;
+$info: #2972FA;
+$dark: #1B1E24;
+$light: #F6F9FC;
+
+/* Background colors - WHITE text */
+
+.bg_primary
+{
+  background-color: $primary;
+  color: white;
+}
+
+.bg_secondary
+{
+  background-color: $secondary;
+  color: white;
+}
+
+.bg_success
+{
+  background-color: $success;
+  color: white;
+}
+
+.bg_danger
+{
+  background-color: $danger;
+  color: white;
+}
+
+.bg_warning
+{
+  background-color: $warning;
+  color: white;
+}
+
+.bg_info
+{
+  background-color: $info;
+  color: white;
+}
+
+.bg_dark
+{
+  background-color: $dark;
+  color: white;
+}
+
+.bg_light
+{
+  background-color: $light;
+  color: #1B1E24
+}
+
+.bg_white
+{
+  background-color: white;
+  color: #1B1E24
+}
+
+/* Background colors - BLACK text */
+
+.bg_primary.dark
+{
+  color: #000000;
+}
+
+.bg_secondary.dark
+{
+  color: #000000;
+}
+
+.bg_success.dark
+{
+  color: #000000;
+}
+
+.bg_danger.dark
+{
+  color: #000000;
+}
+
+.bg_warning.dark
+{
+  color: #000000;
+}
+
+.bg_info.dark
+{
+  color: #000000;
+}
+
+.bg_light.dark
+{
+  color: #000000;
+}
+
+.bg_white.dark
+{
+  color: #000000;
+}

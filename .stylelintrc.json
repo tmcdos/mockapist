@@ -1,0 +1,9 @@
+{
+  "rules":
+  {
+  	"no-empty-source": null,
+  	"color-hex-case": "upper",
+  	"block-opening-brace-space-before": null,
+  	"comment-empty-line-before": null
+  }
+}
