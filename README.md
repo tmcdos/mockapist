@@ -5,6 +5,8 @@
 This tool was made out of necessity. I needed something simple (not like Postman) so I tried [Mockoon](https://github.com/255kb/mockoon)  
 I soon realized that it lacks some bells and whistles - so I decided to build a tool to suit my requirements.
 
+![](https://github.com/tmcdos/mockapist/raw/master/screen.png)
+
 ## Features
 
 - the web server is active automatically on start (no need to start it manually)
